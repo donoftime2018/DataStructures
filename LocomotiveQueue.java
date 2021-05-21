@@ -11,7 +11,7 @@ public class LocomotiveQueue
 	 */
 	public LocomotiveQueue(int capacity)
 	{
-		array = new Locomotive[capacity]; //creates an array of 10 Locomotive object reference variables
+		array = new Locomotive[capacity]; //creates an array of 'capacity' Locomotive object reference variables
 		front = rear = 0; //initializes front and rear indices to 0
 	}
 	
@@ -110,7 +110,7 @@ public class LocomotiveQueue
 		{
 			if (array[i].compareTo(data) == 0)
 			{
-				System.out.print(data.getName() + " is in queue");
+				System.out.print(data.getName() + " is in queue"); //report data was found in queue
 				return 1;
 			}
 		}
