@@ -50,7 +50,7 @@ public class LocomotiveLinkedList
 			{
 				if (newNode.compareTo(cursor.getData()) == -1)
 				{
-					newNode.setLink(prevCursor.getLink()); //sets link of cursor to newNode
+					newNode.setLink(cursor); //sets link of newNode to cursor
 					prevCursor.setLink(newNode); //sets link of prevCursor to newNode
 					break;
 				}

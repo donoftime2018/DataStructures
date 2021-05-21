@@ -15,7 +15,7 @@ public class LocomotiveLinkedListTest {
 		
 		loco1 = new Locomotive("Percy", 6, true, "Avonside Saddle Tank", "green");
 		loco2 = new Locomotive("Billy", null, false, "Manning Wardle L", "orange");
-		loco3 = new Locomotive("Fergus", null, false, "Blue Circle", "royal blue");
+		loco3 = new Locomotive("Fergus", null, false, "\"Blue Circle\"", "royal blue");
 		loco4 = new Locomotive("Smudger", null, false, "Dolgoch", "green");
 		loco5 = new Locomotive("Luke", 22, true, "Kerr Stuart Wren", "green");
 		loco6 = new Locomotive("Henry", 3, true, "LMS Black 5", "green");
@@ -115,6 +115,11 @@ public class LocomotiveLinkedListTest {
 		list.remove(loco5);
 		list.remove(new Locomotive("Yong Bao", null, false, "Chinese Railways RM", "red"));
 		list.remove(loco9);
+		list.remove(loco8);
+		list.remove(loco6);
+		list.remove(loco3);
+		list.remove(loco2);
+		list.remove(loco12);
 		list.insert(new Locomotive("Victor", 1174, true, "\"Minaz\" No. 1174", "yellow and green"));
 		
 		list.display();
@@ -127,9 +132,12 @@ public class LocomotiveLinkedListTest {
 		System.out.println("\n\n\n\n\n\n\n\n\n\n\n");
 		
 		copy.remove(loco9);
+		copy.remove(loco11);
+		copy.insert(new Locomotive("Salty", 2991, true, "BR Class 07", "green"));
 		copy.insert(new Locomotive("Annie and Clarabel", null, false, "LBSCR Stroudley Coaches", "light brown"));
 		copy.insert(new Locomotive("Rusty", 5, true, "Midlander", "orange"));
 		copy.insert(new Locomotive("Rheneas", 2, true, "\"Dolgoch\"", "crimson"));
+		copy.insert(new Locomotive("Salty", 2991, true, "BR Class 07", "green"));
 		copy.display();
 		
 	}
