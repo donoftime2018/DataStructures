@@ -110,12 +110,26 @@ public class LocomotiveQueue
 		{
 			if (array[i].compareTo(data) == 0)
 			{
-				System.out.print(data.getName() + " is in queue"); //report data was found in queue
+				System.out.print(data.getName() + " is in the queue"); //report data was found in queue
 				return 1;
 			}
 		}
 		
 		return 0;
+	}
+	
+	/**
+	 * makes a copy of the current LocomotiveQueue object using System.arraycopy
+	 * @return - reference to the copy of current LocomotiveQueue
+	 */
+	public LocomotiveQueue copy()
+	{
+		LocomotiveQueue copy = new LocomotiveQueue(array.length); //creates a LocomotiveQueue which same length as this LocomotiveQueue
+		
+		System.arraycopy(array, front, copy.array, front, array.length); //copy current array contents to array copy as far as where the current rear position is
+		copy.rear = this.rear; //sets copy's rear to this rear
+		
+		return copy;
 	}
 	
 	/**

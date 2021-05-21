@@ -88,12 +88,16 @@ public class LocomotivePriorityQueue
 		}
 	}
 	
-	
+	/**
+	 * searches for piece of data in priority queue using LocomotiveQueue's search method
+	 * @param data - data to be searched for
+	 * @return - 1 if data found, 0 if not found
+	 */
 	public int search(Locomotive data)
 	{
 		for (int i = 0; i < priority_queue.length; i++)
 		{
-			if (priority_queue[i].search(data)==1)
+			if (priority_queue[i].search(data)==1) //uses search method for each queue in 'priority_queue'
 			{
 				System.out.println(" in priority " + i); //if search returns 1, report which priority the element is in
 				return 1;
@@ -101,6 +105,31 @@ public class LocomotivePriorityQueue
 		}
 		
 		return 0;
+	}
+	
+	/**
+	 * returns the capacity of an individual priority queue (same for all priority queues)
+	 * @return - length of a priority queue using LocomotiveQueue's capacity method
+	 */
+	private int capacity()
+	{
+		return priority_queue[0].capacity();
+	}
+	
+	/**
+	 * copies this PriorityQueue object
+	 * @return - copy of PriorityQueue object using LocomotiveQueue's copy method (i.e. make deep copies of each individual queue in the Priority Queue)
+	 */
+	public LocomotivePriorityQueue copy()
+	{
+		LocomotivePriorityQueue copy = new LocomotivePriorityQueue(capacity(), priority_queue.length); //copy has capacity() elements in each individual LocomotiveQueue and priority_queue.length # of LocomotiveQueues 
+		
+		for (int i = 0; i < priority_queue.length; i++)
+		{
+			copy.priority_queue[i] = priority_queue[i].copy(); //copies each of this queue's individual array queues into 'copy'
+		}
+		
+		return copy;
 	}
 	
 }
