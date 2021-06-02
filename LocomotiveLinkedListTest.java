@@ -198,7 +198,7 @@ public class LocomotiveLinkedListTest {
 		
 		
 		
-		
+		copy.display();
 		
 		copy.remove(loco13); //remove 'loco13' from 'copy'
 		copy.remove(loco24);
@@ -208,6 +208,8 @@ public class LocomotiveLinkedListTest {
 		copy.remove(loco30);
 		copy.remove(loco45);
 		copy.remove(loco38);
+		
+		System.out.println("\n\n\n\nRemoving and replacing data\nNow copy looks like\n");
 		
 		copy.insert(loco41);
 		copy.insert(loco55);
