@@ -621,7 +621,7 @@ Livery: green
 Now the tree looks like...
 
 
-PRE-ORDER TRAVERSAL:
+IN-ORDER TRAVERSAL:
 Annie and Clarabel <- begin left subtree
 Bear 
 Belle 
