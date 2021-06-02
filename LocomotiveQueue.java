@@ -110,7 +110,7 @@ public class LocomotiveQueue
 		{
 			if (array[i].compareTo(data) == 0)
 			{
-				System.out.print(data.getName() + " is in the queue"); //report data was found in queue
+				System.out.print(data.getName() + " is element " + (i+1) + " in the queue"); //report data was found in queue
 				return 1;
 			}
 		}
