@@ -77,7 +77,6 @@ public class LocomotiveLinkedList
 		LocomotiveNode old_Head = head;
 		insertHead(newHead);
 		head.setLink(old_Head);
-		return;
 	}
 	
 	/**

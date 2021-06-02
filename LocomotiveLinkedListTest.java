@@ -204,18 +204,19 @@ public class LocomotiveLinkedListTest {
 		copy.remove(loco24);
 		copy.remove(loco31);
 		copy.remove(loco36);
+		copy.remove(loco2);
 		copy.remove(loco4);
 		copy.remove(loco30);
+		copy.remove(loco57);
 		copy.remove(loco45);
-		copy.remove(loco38);
 		
 		System.out.println("\n\n\n\nRemoving and replacing data\nNow copy looks like\n");
 		
 		copy.insert(loco41);
+		copy.insert(new Locomotive("Gator", null, false, "Colombian Steam Motor", "green"));
 		copy.insert(loco55);
 		copy.insert(new Locomotive("Victor", null, false, "\"Minaz\" No. 1173", "red"));
 		copy.insert(new Locomotive("Thomas", 1, true, "LBSCR E2", "blue"));
-		copy.insert(new Locomotive("Salty", 2991, true, "BR Class 07", "red"));
 		copy.insert(loco27);
 		copy.insert(new Locomotive("Philip", 68, true, "PRR A6 Boxcab", "green and yellow"));
 		copy.insert(new Locomotive("James", 5, true, "L&YR Class 28", "red"));
@@ -223,6 +224,7 @@ public class LocomotiveLinkedListTest {
 		copy.insert(new Locomotive("Duncan", 6, true, "\"Douglas\"", "yellow"));
 		copy.insert(loco53);
 		copy.insert(loco56);
+		copy.insert(loco38);
 		copy.insert(loco54);
 		
 		copy.display();
