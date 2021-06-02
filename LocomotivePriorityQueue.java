@@ -91,20 +91,17 @@ public class LocomotivePriorityQueue
 	/**
 	 * searches for piece of data in priority queue using LocomotiveQueue's search method
 	 * @param data - data to be searched for
-	 * @return - 1 if data found, 0 if not found
 	 */
-	public int search(Locomotive data)
+	public void search(Locomotive data)
 	{
 		for (int i = 0; i < priority_queue.length; i++)
 		{
 			if (priority_queue[i].search(data)==1) //uses search method for each queue in 'priority_queue'
 			{
 				System.out.println(" in priority " + i); //if search returns 1, report which priority the element is in
-				return 1;
 			}
 		}
 		
-		return 0;
 	}
 	
 	/**

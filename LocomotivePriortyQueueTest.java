@@ -102,6 +102,7 @@ public class LocomotivePriortyQueueTest {
 		test.add(loco14, rand.nextInt(MAX_PRIORITY));
 		test.add(loco24, rand.nextInt(MAX_PRIORITY));
 		test.add(loco2, rand.nextInt(MAX_PRIORITY));
+		test.add(loco57, rand.nextInt(MAX_PRIORITY));
 		test.add(loco30, rand.nextInt(MAX_PRIORITY));
 		test.add(loco9, rand.nextInt(MAX_PRIORITY));
 		test.add(loco44, rand.nextInt(MAX_PRIORITY));
@@ -109,6 +110,7 @@ public class LocomotivePriortyQueueTest {
 		test.add(loco34, rand.nextInt(MAX_PRIORITY));
 		test.add(loco25, rand.nextInt(MAX_PRIORITY));
 		test.add(loco28, rand.nextInt(MAX_PRIORITY));
+		test.add(loco48, rand.nextInt(MAX_PRIORITY));
 		test.add(loco7, rand.nextInt(MAX_PRIORITY));
 		test.add(loco21, rand.nextInt(MAX_PRIORITY));
 		test.add(loco40, rand.nextInt(MAX_PRIORITY));
@@ -119,11 +121,12 @@ public class LocomotivePriortyQueueTest {
 		test.add(loco19, rand.nextInt(MAX_PRIORITY));
 		test.add(loco36, rand.nextInt(MAX_PRIORITY));
 		test.add(loco17, rand.nextInt(MAX_PRIORITY));
-		test.add(loco57, rand.nextInt(MAX_PRIORITY));
+		test.add(loco38, rand.nextInt(MAX_PRIORITY));
 		test.add(loco32, rand.nextInt(MAX_PRIORITY));
 		test.add(loco14, rand.nextInt(MAX_PRIORITY));
 		test.add(loco52, rand.nextInt(MAX_PRIORITY));
 		test.add(loco6, rand.nextInt(MAX_PRIORITY));
+		test.add(new Locomotive("James", 5, true, "L&YR Clas 28", "black"), rand.nextInt(MAX_PRIORITY));
 		test.add(loco5, rand.nextInt(MAX_PRIORITY));
 		test.add(loco49, rand.nextInt(MAX_PRIORITY));
 		test.add(loco26, rand.nextInt(MAX_PRIORITY));
@@ -140,8 +143,8 @@ public class LocomotivePriortyQueueTest {
 		
 		copy = test.copy(); //create copy of 'test'
 		
-//		test.display(); //display all elements in queue
-//		
+		test.display(); //display all elements in queue
+	
 		test.search(loco5); //search for if loco5 is in queue and if so, which specific priority it is in
 		test.search(loco30);
 		test.search(loco17);
@@ -151,9 +154,12 @@ public class LocomotivePriortyQueueTest {
 		test.search(loco8);
 		test.search(loco9);
 		test.search(loco21);
+		test.search(loco25);
+		test.search(loco36);
 		test.search(loco45);
 		test.search(loco3);
 		test.search(loco20);
+		test.search(loco57);
 		test.search(loco6);
 		
 		System.out.println("\n\n\n\n\n\n\n\n\n\n\nCOPY CURRENTLY LOOKS LIKE...");
