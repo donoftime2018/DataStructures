@@ -131,13 +131,17 @@ public class LocomotiveLinkedList
 	 */
 	public int search(Locomotive target)
 	{
+		int position = 1; //position of element in list (i.e. 1st node/head, 2nd node, ...)
+		
 		for (LocomotiveNode cursor = head; cursor != null; cursor = cursor.getLink())
 		{
 			if (cursor.getData().compareTo(target) == 0)
 			{
-				System.out.println(target.getName() + " is in the list!");
+				System.out.println(target.getName() + " is node number " + position + " in list");
 				return 1;
 			}
+			
+			position++;
 		}
 		
 		return 0;

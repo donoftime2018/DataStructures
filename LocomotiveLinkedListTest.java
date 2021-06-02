@@ -171,6 +171,7 @@ public class LocomotiveLinkedListTest {
 		list.search(loco5);
 		list.search(loco22);
 		list.search(loco32);
+		list.search(loco11);
 		list.search(loco63);
 		list.search(loco10);
 		list.search(loco8);
@@ -192,6 +193,18 @@ public class LocomotiveLinkedListTest {
 		list.insert(new Locomotive("Gator", null, false, "Colombian Steam Motor", "green"));
 		
 		list.display();
+		
+		list.search(loco21); //search for 'loco21' in 'list'
+		list.search(loco26);
+		list.search(loco5);
+		list.search(loco22);
+		list.search(loco17);
+		list.search(loco32);
+		list.search(loco63);
+		list.search(loco10);
+		list.search(loco8);
+		list.search(loco7);
+		
 		System.out.println("\n\n\n\n\n\n\n\nCopy looks like...");
 		
 		
@@ -228,6 +241,17 @@ public class LocomotiveLinkedListTest {
 		copy.insert(loco54);
 		
 		copy.display();
+		
+		copy.search(loco17);
+		copy.search(loco20);
+		copy.search(loco11);
+		copy.search(loco30);
+		copy.search(loco22);
+		copy.search(loco46);
+		copy.search(loco36);
+		copy.search(loco57);
+		copy.search(loco40);
+		copy.search(loco41);
 		
 	}
 }
