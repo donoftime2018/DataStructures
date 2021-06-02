@@ -1,0 +1,693 @@
+James is in the tree already!
+Fergus is in the tree already!
+Hurricane is in the tree already!
+Hugo is in the tree already!
+Den is in the tree already!
+Murdoch is in the tree already!
+Douglas is in the tree already!
+Smudger is in the tree already!
+Donald is in the tree already!
+Derek is in the tree already!
+Henry is in the tree already!
+Luke is in the tree already!
+LUKE
+Basis: Kerr Stuart Wren
+Number: 22
+Livery: green
+
+
+BILL AND BEN
+Basis: Alfredy and Judy
+Bill and Ben does not have a number
+Livery: golden yellow
+
+
+DONALD
+Basis: CR 812
+Number: 9
+Livery: black
+
+
+DOUGLAS
+Basis: CR 812
+Number: 10
+Livery: black
+
+
+PRE-ORDER TRAVERSAL:
+Henry <- root node
+Billy <- begin left subtree
+Belle 
+Arthur 
+'Arry and Bert 
+Bash and Dash 
+Bear 
+Bill and Ben 
+Bertram 
+Hank 
+Fergus 
+Duke 
+Duck 
+Dennis 
+Dart 
+Charlie 
+Bowler 
+BoCo 
+Daisy 
+Donald 
+Derek 
+Douglas 
+Ferdinand 
+Edward 
+Emily 
+Flying Scotsman 
+Gordon 
+Gator 
+Glynn 
+Harvey 
+Hiro <- begin right subtree
+Hercules 
+Smudger 
+Rebecca 
+Murdoch 
+James 
+Hugo 
+Hurricane 
+Luke 
+Mavis 
+Molly 
+Mighty Mac 
+Neville 
+Paxton 
+Norman 
+Nia 
+Oliver 
+Philip 
+Percy 
+Porter 
+Sidney 
+Samson 
+Salty 
+Ryan 
+Rheneas 
+Richard 
+Skarloey 
+Skiff 
+Spencer 
+Spamcan 
+Stanley 
+Splatter and Dodge 
+Stafford 
+Terence 
+Stepney 
+Thomas 
+Whiff 
+Toby 
+Toad 
+Victor 
+Yong Bao 
+
+
+I'm going to remove Billy
+
+
+Now the tree looks like...
+
+
+PRE-ORDER TRAVERSAL:
+Henry <- root node
+Hank <- begin left subtree
+Fergus 
+Duke 
+Duck 
+Dennis 
+Dart 
+Charlie 
+Bowler 
+BoCo 
+Belle 
+Arthur 
+'Arry and Bert 
+Bash and Dash 
+Bear 
+Bill and Ben 
+Bertram 
+Daisy 
+Donald 
+Derek 
+Douglas 
+Ferdinand 
+Edward 
+Emily 
+Flying Scotsman 
+Gordon 
+Gator 
+Glynn 
+Harvey 
+Hiro <- begin right subtree
+Hercules 
+Smudger 
+Rebecca 
+Murdoch 
+James 
+Hugo 
+Hurricane 
+Luke 
+Mavis 
+Molly 
+Mighty Mac 
+Neville 
+Paxton 
+Norman 
+Nia 
+Oliver 
+Philip 
+Percy 
+Porter 
+Sidney 
+Samson 
+Salty 
+Ryan 
+Rheneas 
+Richard 
+Skarloey 
+Skiff 
+Spencer 
+Spamcan 
+Stanley 
+Splatter and Dodge 
+Stafford 
+Terence 
+Stepney 
+Thomas 
+Whiff 
+Toby 
+Toad 
+Victor 
+Yong Bao 
+
+
+I'm going to remove Hank
+
+
+Now the tree looks like...
+
+
+PRE-ORDER TRAVERSAL:
+Henry <- root node
+Harvey <- begin left subtree
+Fergus 
+Duke 
+Duck 
+Dennis 
+Dart 
+Charlie 
+Bowler 
+BoCo 
+Belle 
+Arthur 
+'Arry and Bert 
+Bash and Dash 
+Bear 
+Bill and Ben 
+Bertram 
+Daisy 
+Donald 
+Derek 
+Douglas 
+Ferdinand 
+Edward 
+Emily 
+Flying Scotsman 
+Gordon 
+Gator 
+Glynn 
+Hiro <- begin right subtree
+Hercules 
+Smudger 
+Rebecca 
+Murdoch 
+James 
+Hugo 
+Hurricane 
+Luke 
+Mavis 
+Molly 
+Mighty Mac 
+Neville 
+Paxton 
+Norman 
+Nia 
+Oliver 
+Philip 
+Percy 
+Porter 
+Sidney 
+Samson 
+Salty 
+Ryan 
+Rheneas 
+Richard 
+Skarloey 
+Skiff 
+Spencer 
+Spamcan 
+Stanley 
+Splatter and Dodge 
+Stafford 
+Terence 
+Stepney 
+Thomas 
+Whiff 
+Toby 
+Toad 
+Victor 
+Yong Bao 
+
+
+I'm going to add Norman
+Norman is in the tree already!
+
+
+Now the tree looks like...
+
+
+IN-ORDER TRAVERSAL:
+'Arry and Bert <- begin left subtree
+Arthur 
+Bash and Dash 
+Bear 
+Belle 
+Bertram 
+Bill and Ben 
+BoCo 
+Bowler 
+Charlie 
+Daisy 
+Dart 
+Dennis 
+Derek 
+Donald 
+Douglas 
+Duck 
+Duke 
+Edward 
+Emily 
+Ferdinand 
+Fergus 
+Flying Scotsman 
+Gator 
+Glynn 
+Gordon 
+Harvey 
+Henry <- root node
+Hercules <- begin right subtree
+Hiro 
+Hugo 
+Hurricane 
+James 
+Luke 
+Mavis 
+Mighty Mac 
+Molly 
+Murdoch 
+Neville 
+Nia 
+Norman 
+Oliver 
+Paxton 
+Percy 
+Philip 
+Porter 
+Rebecca 
+Rheneas 
+Richard 
+Ryan 
+Salty 
+Samson 
+Sidney 
+Skarloey 
+Skiff 
+Smudger 
+Spamcan 
+Spencer 
+Splatter and Dodge 
+Stafford 
+Stanley 
+Stepney 
+Terence 
+Thomas 
+Toad 
+Toby 
+Victor 
+Whiff 
+Yong Bao 
+
+
+I'm going to remove Henry
+
+
+Now the tree looks like...
+
+
+POST-ORDER TRAVERSAL:
+'Arry and Bert <- begin left subtree
+Bear 
+Bash and Dash 
+Arthur 
+Bertram 
+Bill and Ben 
+Belle 
+BoCo 
+Bowler 
+Daisy 
+Charlie 
+Dart 
+Derek 
+Douglas 
+Donald 
+Dennis 
+Duck 
+Emily 
+Edward 
+Ferdinand 
+Duke 
+Glynn 
+Gator 
+Gordon 
+Flying Scotsman 
+Fergus 
+Harvey 
+Hercules 
+Hurricane <- right subtree 
+Hugo 
+Mighty Mac 
+Molly 
+Mavis 
+Luke 
+James 
+Nia 
+Oliver 
+Norman 
+Percy 
+Porter 
+Philip 
+Paxton 
+Neville 
+Murdoch 
+Richard 
+Rheneas 
+Ryan 
+Salty 
+Samson 
+Skiff 
+Skarloey 
+Sidney 
+Rebecca 
+Spamcan 
+Stafford 
+Splatter and Dodge 
+Stepney 
+Toad 
+Victor 
+Toby 
+Yong Bao 
+Whiff 
+Thomas 
+Terence 
+Stanley 
+Spencer 
+Smudger 
+Hiro <- new root node after removing Henry
+
+
+
+
+
+
+
+
+
+
+Copy currently looks like...
+
+PRE-ORDER TRAVERSAL:
+Henry <- root node
+Billy <- begin left subtree
+Belle 
+Arthur 
+'Arry and Bert 
+Bash and Dash 
+Bear 
+Bill and Ben 
+Bertram 
+Hank 
+Fergus 
+Duke 
+Duck 
+Dennis 
+Dart 
+Charlie 
+Bowler 
+BoCo 
+Daisy 
+Donald 
+Derek 
+Douglas 
+Ferdinand 
+Edward 
+Emily 
+Flying Scotsman 
+Gordon 
+Gator 
+Glynn 
+Harvey 
+Hiro <- begin right subtree
+Hercules 
+Smudger 
+Rebecca 
+Murdoch 
+James 
+Hugo 
+Hurricane 
+Luke 
+Mavis 
+Molly 
+Mighty Mac 
+Neville 
+Paxton 
+Norman 
+Nia 
+Oliver 
+Philip 
+Percy 
+Porter 
+Sidney 
+Samson 
+Salty 
+Ryan 
+Rheneas 
+Richard 
+Skarloey 
+Skiff 
+Spencer 
+Spamcan 
+Stanley 
+Splatter and Dodge 
+Stafford 
+Terence 
+Stepney 
+Thomas 
+Whiff 
+Toby 
+Toad 
+Victor 
+Yong Bao 
+
+
+Gonna insert some elements...
+
+
+Norman is in the tree already!
+Luke is in the tree already!
+Hugo is in the tree already!
+Victor is in the tree already!
+Rebecca is in the tree already!
+BoCo is in the tree already!
+Daisy is in the tree already!
+
+
+Now the tree looks like...
+
+
+POST-ORDER TRAVERSAL:
+Annie and Clarabel <- begin left subtree
+'Arry and Bert 
+Bear 
+Bash and Dash 
+Arthur 
+Bertram 
+Bill and Ben 
+Belle 
+BoCo 
+Bradford 
+Bowler 
+Daisy 
+Charlie 
+Dart 
+Derek 
+Douglas 
+Donald 
+Dennis 
+Duck 
+Emily 
+Edward 
+Ferdinand 
+Duke 
+Glynn 
+Gator 
+Gordon 
+Flying Scotsman 
+Fergus 
+Harvey 
+Hank 
+Billy 
+Hercules <- begin right subtree 
+Hurricane 
+Hugo 
+Mighty Mac 
+Molly 
+Mavis 
+Luke 
+James 
+Nia 
+Oliver 
+Norman 
+Percy 
+Porter 
+Philip 
+Paxton 
+Neville 
+Murdoch 
+Richard 
+Rheneas 
+Ryan 
+Salty 
+Samson 
+Skiff 
+Skarloey 
+Sidney 
+Rebecca 
+Spamcan 
+Stafford 
+Splatter and Dodge 
+Stepney 
+Toad 
+Victor 
+Toby 
+Yong Bao 
+Whiff 
+Thomas 
+Terence 
+Stanley 
+Spencer 
+Smudger 
+Hiro 
+Henry <- root node
+
+
+Gonna remove some crap...
+
+
+MURDOCH
+Basis: BR Standard 9F
+Murdoch does not have a number
+Livery: orange
+
+
+BELLE
+Basis: LMS Ivatt 4MT
+Number: 6120
+Livery: prussian blue
+
+
+LUKE
+Basis: Kerr Stuart Wren
+Number: 22
+Livery: green
+
+
+
+Now the tree looks like...
+
+
+PRE-ORDER TRAVERSAL:
+Annie and Clarabel <- begin left subtree
+Bear 
+Belle 
+Bertram 
+Bill and Ben 
+Billy 
+BoCo 
+Bowler 
+Bradford 
+Charlie 
+Daisy 
+Dart 
+Dennis 
+Derek 
+Donald 
+Douglas 
+Duck 
+Duke 
+Edward 
+Emily 
+Ferdinand 
+Fergus 
+Flying Scotsman 
+Gator 
+Glynn 
+Gordon 
+Hank 
+Harvey 
+Henry <- root node
+Hercules <- begin right subtree
+Hiro 
+Hugo 
+Hurricane 
+James 
+Luke 
+Mavis 
+Mighty Mac 
+Molly 
+Murdoch 
+Neville 
+Nia 
+Oliver 
+Paxton 
+Percy 
+Philip 
+Porter 
+Rebecca 
+Rheneas 
+Richard 
+Ryan 
+Salty 
+Samson 
+Sidney 
+Skarloey 
+Skiff 
+Smudger 
+Spamcan 
+Spencer 
+Splatter and Dodge 
+Stafford 
+Stanley 
+Stepney 
+Terence 
+Thomas 
+Toad 
+Toby 
+Victor 
+Whiff 
+Yong Bao 
