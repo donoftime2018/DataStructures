@@ -453,7 +453,7 @@ public class LocomotiveBSTree
 		
 		if (root.compareTo(target) == 0)
 		{
-			System.out.println(target.toString());
+			System.out.println(target);
 			return;
 		}
 		
