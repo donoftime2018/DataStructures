@@ -98,7 +98,7 @@ public class LocomotivePriorityQueue
 		{
 			if (priority_queue[i].search(data)==1) //uses search method for each queue in 'priority_queue'
 			{
-				System.out.println(" in priority " + i); //if search returns 1, report which priority the element is in
+				System.out.println(" of priority " + i); //if search returns 1, report which priority the element is in
 			}
 		}
 		
