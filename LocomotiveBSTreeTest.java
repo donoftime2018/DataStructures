@@ -127,7 +127,6 @@ public class LocomotiveBSTreeTest {
 		test.insert(new Locomotive("Stanley", null, false, "\"Wissington\" 1700 and Austin I", "white"));
 		test.insert(loco22);
 		test.insert(loco43);
-		test.insert(loco33);
 		test.insert(loco26);
 		test.insert(new Locomotive("Philip", 68, true, "PRR A6 Boxcab", "green and yellow"));
 		test.insert(loco13);
