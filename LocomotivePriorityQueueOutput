@@ -1,101 +1,101 @@
 --------------------
 Priority 0 elements: 
 --------------------
-MURDOCH
-Basis: BR Standard 9F
-Murdoch does not have a number
-Livery: orange
-
-THOMAS
-Basis: LBSCR E2
-Number: 1
-Livery: blue
-
-DEREK
-Basis: BR Class 17
-Derek does not have a number
-Livery: dark green
-
-BOCO
-Basis: BR Class 28
-BoCo does not have a number
-Livery: green
-
 DENNIS
 Basis: BR Class 11001
 Number: 11001
 Livery: grey
+
+JAMES
+Basis: L&YR Class 28
+Number: 5
+Livery: red
+
+OLIVER
+Basis: GWR 14XX
+Number: 11
+Livery: green
+
+BILL AND BEN
+Basis: Alfredy and Judy
+Bill and Ben does not have a number
+Livery: golden yellow
+
+GORDON
+Basis: LNER A3 Pacific
+Number: 4
+Livery: blue
 
 SPLATTER AND DODGE
 Basis: BR Class 08
 Splatter and Dodge does not have a number
 Livery: purple and olive respectively
 
-BERTRAM
-Basis: Small England
-Bertram does not have a number
-Livery: dark brown
-
 --------------------
 Priority 1 elements: 
 --------------------
-BELLE
-Basis: LMS Ivatt 4MT
-Number: 6120
-Livery: prussian blue
+DAISY
+Basis: BR Class 101 DMU
+Daisy does not have a number
+Livery: green
 
 BILLY
 Basis: Manning Wardle L
 Billy does not have a number
 Livery: orange
 
-VICTOR
-Basis: "Minaz" No. 1173
-Number: 1173
-Livery: yellow and green
-
 'ARRY AND BERT
 Basis: BR Class 08
 'Arry and Bert does not have a number
 Livery: dark green and yellow
 
-DEN
-Basis: Rolls Royce Sentinel Hydraulic
-Den does not have a number
-Livery: blue and orange
+DONALD
+Basis: CR 812
+Number: 9
+Livery: black
 
-BASH AND DASH
-Basis: Bear Harbor Lumber Company 1
-Bash and Dash does not have a number
-Livery: blue and orange
-
-THOMAS
-Basis: LBSCR E2
-Number: 70
-Livery: green
+JAMES
+Basis: L&YR Clas 28
+Number: 5
+Livery: black
 
 RYAN
 Basis: GNR N2
 Number: 1014
 Livery: purple
 
+HANK
+Basis: PRR K4 Pacific
+Hank does not have a number
+Livery: royal blue
+
+NORMAN
+Basis: BR Class 11001
+Norman does not have a number
+Livery: red
+
 --------------------
 Priority 2 elements: 
 --------------------
-SALTY
-Basis: BR Class 07
-Number: 2991
-Livery: red
+HUGO
+Basis: Schienenzeppelin
+Hugo does not have a number
+Livery: silver
+
+THOMAS
+Basis: LBSCR E2
+Number: 1
+Livery: blue
 
 PERCY
 Basis: Avonside Saddle Tank
 Number: 6
 Livery: green
 
-DIESEL
-Basis: BR Class 08
-Diesel does not have a number
-Livery: black
+HENRY
+Basis: LMS Black 5
+Number: 3
+Livery: green
 
 NEVILLE
 Basis: SR Bulleid Q1
@@ -107,6 +107,11 @@ Basis: BR Class 101
 Daisy does not have a number
 Livery: green
 
+SIDNEY
+Basis: BR Class 08
+Sidney does not have a number
+Livery: dark blue
+
 --------------------
 Priority 3 elements: 
 --------------------
@@ -115,30 +120,68 @@ Basis: "Tallylyn"
 Number: 1
 Livery: red
 
+SALTY
+Basis: BR Class 07
+Number: 2991
+Livery: red
+
+DART
+Basis: Bagnall Diesel Shunter
+Dart does not have a number
+Livery: crimson and yellow
+
+DEREK
+Basis: BR Class 17
+Derek does not have a number
+Livery: dark green
+
 DENNIS
 Basis: BR Class 11001
 Number: 11001
 Livery: grey
 
-HUGO
-Basis: Schienenzeppelin
-Hugo does not have a number
-Livery: silver
+DIESEL
+Basis: BR Class 08
+Diesel does not have a number
+Livery: black
+
+REBECCA
+Basis: SR West Country Class
+Number: 22
+Livery: yellow
+
+--------------------
+Priority 4 elements: 
+--------------------
+HIRO
+Basis: JNR D51
+Number: 51
+Livery: black
 
 FERGUS
 Basis: Blue Circle
 Fergus does not have a number
 Livery: royal blue
 
-JAMES
-Basis: L&YR Class 28
-Number: 5
-Livery: red
+FERDINAND
+Basis: Climax Class C
+Ferdinand does not have a number
+Livery: teal
 
-BILL AND BEN
-Basis: Alfredy and Judy
-Bill and Ben does not have a number
-Livery: golden yellow
+DEN
+Basis: Rolls Royce Sentinel Hydraulic
+Den does not have a number
+Livery: blue and orange
+
+THOMAS
+Basis: LBSCR E2
+Number: 70
+Livery: green
+
+SALTY
+Basis: BR Class 07
+Number: 2991
+Livery: green
 
 TOBY
 Basis: LNER J70
@@ -161,105 +204,62 @@ Number: 37
 Livery: red
 
 --------------------
-Priority 4 elements: 
+Priority 5 elements: 
 --------------------
-FERDINAND
-Basis: Climax Class C
-Ferdinand does not have a number
-Livery: teal
+BELLE
+Basis: LMS Ivatt 4MT
+Number: 6120
+Livery: prussian blue
 
-DONALD
-Basis: CR 812
-Number: 9
-Livery: black
+MURDOCH
+Basis: BR Standard 9F
+Murdoch does not have a number
+Livery: orange
+
+VICTOR
+Basis: "Minaz" No. 1173
+Number: 1173
+Livery: yellow and green
+
+BOCO
+Basis: BR Class 28
+BoCo does not have a number
+Livery: green
 
 ARTHUR
 Basis: LMS Ivatt 2MT
 Number: 41241
 Livery: red
 
-GORDON
-Basis: LNER A3 Pacific
-Number: 4
-Livery: blue
+BASH AND DASH
+Basis: Bear Harbor Lumber Company 1
+Bash and Dash does not have a number
+Livery: blue and orange
 
-HENRY
-Basis: LMS Black 5
-Number: 3
-Livery: green
+BERTRAM
+Basis: Small England
+Bertram does not have a number
+Livery: dark brown
 
-SIDNEY
-Basis: BR Class 08
-Sidney does not have a number
-Livery: dark blue
-
-HANK
-Basis: PRR K4 Pacific
-Hank does not have a number
-Livery: royal blue
-
-NORMAN
-Basis: BR Class 11001
-Norman does not have a number
-Livery: red
-
-REBECCA
-Basis: SR West Country Class
-Number: 22
-Livery: yellow
-
---------------------
-Priority 5 elements: 
---------------------
-DAISY
-Basis: BR Class 101 DMU
-Daisy does not have a number
-Livery: green
-
-HIRO
-Basis: JNR D51
-Number: 51
-Livery: black
-
-DART
-Basis: Bagnall Diesel Shunter
-Dart does not have a number
-Livery: crimson and yellow
-
-OLIVER
-Basis: GWR 14XX
-Number: 11
-Livery: green
-
-SALTY
-Basis: BR Class 07
-Number: 2991
-Livery: green
-
-JAMES
-Basis: L&YR Clas 28
-Number: 5
-Livery: black
-
-Luke is element 8 in the queue in priority 3
-Victor is element 3 in the queue in priority 1
-Bill and Ben is element 6 in the queue in priority 3
-Hiro is element 2 in the queue in priority 5
-Douglas is element 9 in the queue in priority 3
-Derek is element 3 in the queue in priority 0
-Arthur is element 3 in the queue in priority 4
-'Arry and Bert is element 4 in the queue in priority 1
-Donald is element 2 in the queue in priority 4
-James is element 5 in the queue in priority 3
-James is element 6 in the queue in priority 5
-Thomas is element 2 in the queue in priority 0
-Thomas is element 7 in the queue in priority 1
-Splatter and Dodge is element 6 in the queue in priority 0
-Fergus is element 4 in the queue in priority 3
-Neville is element 4 in the queue in priority 2
-Salty is element 1 in the queue in priority 2
-Salty is element 5 in the queue in priority 5
-Henry is element 5 in the queue in priority 4
+Luke is element 8 in the queue of priority 4
+Victor is element 3 in the queue of priority 5
+Bill and Ben is element 4 in the queue of priority 0
+Hiro is element 1 in the queue of priority 4
+Douglas is element 9 in the queue of priority 4
+Derek is element 4 in the queue of priority 3
+Arthur is element 5 in the queue of priority 5
+'Arry and Bert is element 3 in the queue of priority 1
+Donald is element 4 in the queue of priority 1
+James is element 2 in the queue of priority 0
+James is element 5 in the queue of priority 1
+Thomas is element 2 in the queue of priority 2
+Thomas is element 5 in the queue of priority 4
+Splatter and Dodge is element 6 in the queue of priority 0
+Fergus is element 2 in the queue of priority 4
+Neville is element 5 in the queue of priority 2
+Salty is element 2 in the queue of priority 3
+Salty is element 6 in the queue of priority 4
+Henry is element 4 in the queue of priority 2
 
 
 
@@ -275,111 +275,101 @@ COPY CURRENTLY LOOKS LIKE...
 --------------------
 Priority 0 elements: 
 --------------------
-MURDOCH
-Basis: BR Standard 9F
-Murdoch does not have a number
-Livery: orange
-
-THOMAS
-Basis: LBSCR E2
-Number: 1
-Livery: blue
-
-DEREK
-Basis: BR Class 17
-Derek does not have a number
-Livery: dark green
-
-BOCO
-Basis: BR Class 28
-BoCo does not have a number
-Livery: green
-
 DENNIS
 Basis: BR Class 11001
 Number: 11001
 Livery: grey
+
+JAMES
+Basis: L&YR Class 28
+Number: 5
+Livery: red
+
+OLIVER
+Basis: GWR 14XX
+Number: 11
+Livery: green
+
+BILL AND BEN
+Basis: Alfredy and Judy
+Bill and Ben does not have a number
+Livery: golden yellow
+
+GORDON
+Basis: LNER A3 Pacific
+Number: 4
+Livery: blue
 
 SPLATTER AND DODGE
 Basis: BR Class 08
 Splatter and Dodge does not have a number
 Livery: purple and olive respectively
 
-BERTRAM
-Basis: Small England
-Bertram does not have a number
-Livery: dark brown
-
-YONG BAO
-Basis: China Railways RM Pacific
-Yong Bao does not have a number
-Livery: red
-
 --------------------
 Priority 1 elements: 
 --------------------
-BELLE
-Basis: LMS Ivatt 4MT
-Number: 6120
-Livery: prussian blue
+DAISY
+Basis: BR Class 101 DMU
+Daisy does not have a number
+Livery: green
 
 BILLY
 Basis: Manning Wardle L
 Billy does not have a number
 Livery: orange
 
-VICTOR
-Basis: "Minaz" No. 1173
-Number: 1173
-Livery: yellow and green
-
 'ARRY AND BERT
 Basis: BR Class 08
 'Arry and Bert does not have a number
 Livery: dark green and yellow
 
-DEN
-Basis: Rolls Royce Sentinel Hydraulic
-Den does not have a number
-Livery: blue and orange
+DONALD
+Basis: CR 812
+Number: 9
+Livery: black
 
-BASH AND DASH
-Basis: Bear Harbor Lumber Company 1
-Bash and Dash does not have a number
-Livery: blue and orange
-
-THOMAS
-Basis: LBSCR E2
-Number: 70
-Livery: green
+JAMES
+Basis: L&YR Clas 28
+Number: 5
+Livery: black
 
 RYAN
 Basis: GNR N2
 Number: 1014
 Livery: purple
 
-SPENCER
-Basis: LNER A4 Pacific
-Spencer does not have a number
-Livery: silver
+HANK
+Basis: PRR K4 Pacific
+Hank does not have a number
+Livery: royal blue
+
+NORMAN
+Basis: BR Class 11001
+Norman does not have a number
+Livery: red
 
 --------------------
 Priority 2 elements: 
 --------------------
-SALTY
-Basis: BR Class 07
-Number: 2991
-Livery: red
+HUGO
+Basis: Schienenzeppelin
+Hugo does not have a number
+Livery: silver
+
+THOMAS
+Basis: LBSCR E2
+Number: 1
+Livery: blue
 
 PERCY
 Basis: Avonside Saddle Tank
 Number: 6
 Livery: green
 
-DIESEL
-Basis: BR Class 08
-Diesel does not have a number
-Livery: black
+HENRY
+Basis: LMS Black 5
+Number: 3
+Livery: green
 
 NEVILLE
 Basis: SR Bulleid Q1
@@ -391,6 +381,11 @@ Basis: BR Class 101
 Daisy does not have a number
 Livery: green
 
+SIDNEY
+Basis: BR Class 08
+Sidney does not have a number
+Livery: dark blue
+
 --------------------
 Priority 3 elements: 
 --------------------
@@ -399,30 +394,73 @@ Basis: "Tallylyn"
 Number: 1
 Livery: red
 
+SALTY
+Basis: BR Class 07
+Number: 2991
+Livery: red
+
+DART
+Basis: Bagnall Diesel Shunter
+Dart does not have a number
+Livery: crimson and yellow
+
+DEREK
+Basis: BR Class 17
+Derek does not have a number
+Livery: dark green
+
 DENNIS
 Basis: BR Class 11001
 Number: 11001
 Livery: grey
 
-HUGO
-Basis: Schienenzeppelin
-Hugo does not have a number
+DIESEL
+Basis: BR Class 08
+Diesel does not have a number
+Livery: black
+
+REBECCA
+Basis: SR West Country Class
+Number: 22
+Livery: yellow
+
+SPENCER
+Basis: LNER A4 Pacific
+Spencer does not have a number
 Livery: silver
+
+--------------------
+Priority 4 elements: 
+--------------------
+HIRO
+Basis: JNR D51
+Number: 51
+Livery: black
 
 FERGUS
 Basis: Blue Circle
 Fergus does not have a number
 Livery: royal blue
 
-JAMES
-Basis: L&YR Class 28
-Number: 5
-Livery: red
+FERDINAND
+Basis: Climax Class C
+Ferdinand does not have a number
+Livery: teal
 
-BILL AND BEN
-Basis: Alfredy and Judy
-Bill and Ben does not have a number
-Livery: golden yellow
+DEN
+Basis: Rolls Royce Sentinel Hydraulic
+Den does not have a number
+Livery: blue and orange
+
+THOMAS
+Basis: LBSCR E2
+Number: 70
+Livery: green
+
+SALTY
+Basis: BR Class 07
+Number: 2991
+Livery: green
 
 TOBY
 Basis: LNER J70
@@ -445,90 +483,52 @@ Number: 37
 Livery: red
 
 --------------------
-Priority 4 elements: 
+Priority 5 elements: 
 --------------------
-FERDINAND
-Basis: Climax Class C
-Ferdinand does not have a number
-Livery: teal
+BELLE
+Basis: LMS Ivatt 4MT
+Number: 6120
+Livery: prussian blue
 
-DONALD
-Basis: CR 812
-Number: 9
-Livery: black
+MURDOCH
+Basis: BR Standard 9F
+Murdoch does not have a number
+Livery: orange
+
+VICTOR
+Basis: "Minaz" No. 1173
+Number: 1173
+Livery: yellow and green
+
+BOCO
+Basis: BR Class 28
+BoCo does not have a number
+Livery: green
 
 ARTHUR
 Basis: LMS Ivatt 2MT
 Number: 41241
 Livery: red
 
-GORDON
-Basis: LNER A3 Pacific
-Number: 4
-Livery: blue
+BASH AND DASH
+Basis: Bear Harbor Lumber Company 1
+Bash and Dash does not have a number
+Livery: blue and orange
 
-HENRY
-Basis: LMS Black 5
-Number: 3
-Livery: green
+BERTRAM
+Basis: Small England
+Bertram does not have a number
+Livery: dark brown
 
-SIDNEY
-Basis: BR Class 08
-Sidney does not have a number
-Livery: dark blue
-
-HANK
-Basis: PRR K4 Pacific
-Hank does not have a number
-Livery: royal blue
-
-NORMAN
-Basis: BR Class 11001
-Norman does not have a number
+YONG BAO
+Basis: China Railways RM Pacific
+Yong Bao does not have a number
 Livery: red
 
-REBECCA
-Basis: SR West Country Class
-Number: 22
-Livery: yellow
 
---------------------
-Priority 5 elements: 
---------------------
-DAISY
-Basis: BR Class 101 DMU
-Daisy does not have a number
-Livery: green
 
-HIRO
-Basis: JNR D51
-Number: 51
-Livery: black
-
-DART
-Basis: Bagnall Diesel Shunter
-Dart does not have a number
-Livery: crimson and yellow
-
-OLIVER
-Basis: GWR 14XX
-Number: 11
-Livery: green
-
-SALTY
-Basis: BR Class 07
-Number: 2991
-Livery: green
-
-JAMES
-Basis: L&YR Clas 28
-Number: 5
-Livery: black
 
 GONNA REMOVE SOME ELEMENTS
-
-
-
 
 
 
@@ -537,111 +537,101 @@ NOW, COPY LOOKS LIKE...
 --------------------
 Priority 0 elements: 
 --------------------
-MURDOCH
-Basis: BR Standard 9F
-Murdoch does not have a number
-Livery: orange
-
-THOMAS
-Basis: LBSCR E2
-Number: 1
-Livery: blue
-
-DEREK
-Basis: BR Class 17
-Derek does not have a number
-Livery: dark green
-
-BOCO
-Basis: BR Class 28
-BoCo does not have a number
-Livery: green
-
 DENNIS
 Basis: BR Class 11001
 Number: 11001
 Livery: grey
+
+JAMES
+Basis: L&YR Class 28
+Number: 5
+Livery: red
+
+OLIVER
+Basis: GWR 14XX
+Number: 11
+Livery: green
+
+BILL AND BEN
+Basis: Alfredy and Judy
+Bill and Ben does not have a number
+Livery: golden yellow
+
+GORDON
+Basis: LNER A3 Pacific
+Number: 4
+Livery: blue
 
 SPLATTER AND DODGE
 Basis: BR Class 08
 Splatter and Dodge does not have a number
 Livery: purple and olive respectively
 
-BERTRAM
-Basis: Small England
-Bertram does not have a number
-Livery: dark brown
-
-YONG BAO
-Basis: China Railways RM Pacific
-Yong Bao does not have a number
-Livery: red
-
 --------------------
 Priority 1 elements: 
 --------------------
-BELLE
-Basis: LMS Ivatt 4MT
-Number: 6120
-Livery: prussian blue
+DAISY
+Basis: BR Class 101 DMU
+Daisy does not have a number
+Livery: green
 
 BILLY
 Basis: Manning Wardle L
 Billy does not have a number
 Livery: orange
 
-VICTOR
-Basis: "Minaz" No. 1173
-Number: 1173
-Livery: yellow and green
-
 'ARRY AND BERT
 Basis: BR Class 08
 'Arry and Bert does not have a number
 Livery: dark green and yellow
 
-DEN
-Basis: Rolls Royce Sentinel Hydraulic
-Den does not have a number
-Livery: blue and orange
+DONALD
+Basis: CR 812
+Number: 9
+Livery: black
 
-BASH AND DASH
-Basis: Bear Harbor Lumber Company 1
-Bash and Dash does not have a number
-Livery: blue and orange
-
-THOMAS
-Basis: LBSCR E2
-Number: 70
-Livery: green
+JAMES
+Basis: L&YR Clas 28
+Number: 5
+Livery: black
 
 RYAN
 Basis: GNR N2
 Number: 1014
 Livery: purple
 
-SPENCER
-Basis: LNER A4 Pacific
-Spencer does not have a number
-Livery: silver
+HANK
+Basis: PRR K4 Pacific
+Hank does not have a number
+Livery: royal blue
+
+NORMAN
+Basis: BR Class 11001
+Norman does not have a number
+Livery: red
 
 --------------------
 Priority 2 elements: 
 --------------------
-SALTY
-Basis: BR Class 07
-Number: 2991
-Livery: red
+HUGO
+Basis: Schienenzeppelin
+Hugo does not have a number
+Livery: silver
+
+THOMAS
+Basis: LBSCR E2
+Number: 1
+Livery: blue
 
 PERCY
 Basis: Avonside Saddle Tank
 Number: 6
 Livery: green
 
-DIESEL
-Basis: BR Class 08
-Diesel does not have a number
-Livery: black
+HENRY
+Basis: LMS Black 5
+Number: 3
+Livery: green
 
 NEVILLE
 Basis: SR Bulleid Q1
@@ -653,6 +643,11 @@ Basis: BR Class 101
 Daisy does not have a number
 Livery: green
 
+SIDNEY
+Basis: BR Class 08
+Sidney does not have a number
+Livery: dark blue
+
 --------------------
 Priority 3 elements: 
 --------------------
@@ -661,30 +656,68 @@ Basis: "Tallylyn"
 Number: 1
 Livery: red
 
+SALTY
+Basis: BR Class 07
+Number: 2991
+Livery: red
+
+DART
+Basis: Bagnall Diesel Shunter
+Dart does not have a number
+Livery: crimson and yellow
+
+DEREK
+Basis: BR Class 17
+Derek does not have a number
+Livery: dark green
+
 DENNIS
 Basis: BR Class 11001
 Number: 11001
 Livery: grey
 
-HUGO
-Basis: Schienenzeppelin
-Hugo does not have a number
+DIESEL
+Basis: BR Class 08
+Diesel does not have a number
+Livery: black
+
+REBECCA
+Basis: SR West Country Class
+Number: 22
+Livery: yellow
+
+SPENCER
+Basis: LNER A4 Pacific
+Spencer does not have a number
 Livery: silver
 
+--------------------
+Priority 4 elements: 
+--------------------
 FERGUS
 Basis: Blue Circle
 Fergus does not have a number
 Livery: royal blue
 
-JAMES
-Basis: L&YR Class 28
-Number: 5
-Livery: red
+FERDINAND
+Basis: Climax Class C
+Ferdinand does not have a number
+Livery: teal
 
-BILL AND BEN
-Basis: Alfredy and Judy
-Bill and Ben does not have a number
-Livery: golden yellow
+DEN
+Basis: Rolls Royce Sentinel Hydraulic
+Den does not have a number
+Livery: blue and orange
+
+THOMAS
+Basis: LBSCR E2
+Number: 70
+Livery: green
+
+SALTY
+Basis: BR Class 07
+Number: 2991
+Livery: green
 
 TOBY
 Basis: LNER J70
@@ -707,43 +740,8 @@ Number: 37
 Livery: red
 
 --------------------
-Priority 4 elements: 
---------------------
-GORDON
-Basis: LNER A3 Pacific
-Number: 4
-Livery: blue
-
-HENRY
-Basis: LMS Black 5
-Number: 3
-Livery: green
-
-SIDNEY
-Basis: BR Class 08
-Sidney does not have a number
-Livery: dark blue
-
-HANK
-Basis: PRR K4 Pacific
-Hank does not have a number
-Livery: royal blue
-
-NORMAN
-Basis: BR Class 11001
-Norman does not have a number
-Livery: red
-
-REBECCA
-Basis: SR West Country Class
-Number: 22
-Livery: yellow
-
---------------------
 Priority 5 elements: 
 --------------------
-Luke is element 8 in the queue in priority 3
-Derek is element 3 in the queue in priority 0
-Spencer is element 9 in the queue in priority 1
-Yong Bao is element 8 in the queue in priority 0
-Murdoch is element 1 in the queue in priority 0
+Luke is element 7 in the queue of priority 4
+Derek is element 4 in the queue of priority 3
+Spencer is element 8 in the queue of priority 3
