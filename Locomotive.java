@@ -74,7 +74,7 @@ public class Locomotive implements Comparable
 	 */
 	public String getName()
 	{
-		return name;
+		return name.trim();
 	}
 	
 	/**
@@ -94,7 +94,7 @@ public class Locomotive implements Comparable
 		{
 			return name.toUpperCase()
 					+ "\nBasis: " + basis
-					+ "\n" + name + " does not have a number"
+					+ "\n" + name.trim() + " does not have a number"
 					+ "\nLivery: " + livery + "\n";
 		}
 	}
