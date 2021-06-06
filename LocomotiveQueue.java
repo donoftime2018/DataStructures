@@ -29,7 +29,6 @@ public class LocomotiveQueue
 				array[rear] = element;
 				break;
 			}
-			rear++;
 		}
 	}
 	
