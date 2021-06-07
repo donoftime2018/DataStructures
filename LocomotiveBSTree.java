@@ -19,11 +19,10 @@ public class LocomotiveBSTree
 	 */
 	public int insert(Locomotive data)
 	{
-		LocomotiveBSNode newNode; //new node being created
+		LocomotiveBSNode newNode = new LocomotiveBSNode(data); //new node being created
 		
 		if (root == null)
 		{
-			newNode = new LocomotiveBSNode(data);
 			insertRoot(newNode); //set root to 'newNode' if root is null
 			return 1;
 		}
@@ -53,7 +52,6 @@ public class LocomotiveBSTree
 				{
 					if (cursorParent.compareTo(data) == 1)
 					{
-						newNode = new LocomotiveBSNode(data);
 						cursor = newNode; //assign newNode to cursor
 						cursorParent.setLeftChild(cursor); //set left child of cursorParent to 'newNode' if cursorParent is larger
 						return 1;
@@ -63,7 +61,6 @@ public class LocomotiveBSTree
 					{
 						if (cursorParent.compareTo(data) == -1)
 						{
-							newNode = new LocomotiveBSNode(data);
 							cursor = newNode;
 							cursorParent.setRightChild(cursor);
 							return 1;
@@ -101,7 +98,6 @@ public class LocomotiveBSTree
 				{
 					if (cursorParent.compareTo(data) == 1)
 					{
-						newNode = new LocomotiveBSNode(data);
 						cursor = newNode; //assign newNode to cursor
 						cursorParent.setLeftChild(cursor);
 						return 1;
@@ -111,7 +107,6 @@ public class LocomotiveBSTree
 					{
 						if (cursorParent.compareTo(data) == -1)
 						{
-							newNode = new LocomotiveBSNode(data);
 							cursor = newNode;
 							cursorParent.setRightChild(cursor);
 							return 1;
