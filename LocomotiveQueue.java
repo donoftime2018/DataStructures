@@ -2,7 +2,7 @@ package Queue;
 
 public class LocomotiveQueue 
 {
-	private Locomotive[] array; //an array of Locomotives that represents a queue
+	private Locomotive[] array_queue; //an array of Locomotives that represents a queue
 	private int front; //the first element in the array
 	private int rear; //the last element in the array
 	
@@ -11,7 +11,7 @@ public class LocomotiveQueue
 	 */
 	public LocomotiveQueue(int capacity)
 	{
-		array = new Locomotive[capacity]; //creates an array of 'capacity' Locomotive object reference variables
+		array_queue = new Locomotive[capacity]; //creates an array of 'capacity' Locomotive object reference variables
 		front = rear = 0; //initializes front and rear indices to 0
 	}
 	
@@ -21,12 +21,12 @@ public class LocomotiveQueue
 	 */
 	public void enque(Locomotive element)
 	{
-		for (int i = 0; i < array.length; i++)
+		for (int i = 0; i < array_queue.length; i++)
 		{
-			if (array[i] == null)
+			if (array_queue[i] == null)
 			{
 				rear = i;
-				array[rear] = element;
+				array_queue[rear] = element;
 				break;
 			}
 		}
@@ -40,15 +40,15 @@ public class LocomotiveQueue
 	{
 		int new_front = front+1;
 		
-		Locomotive temp = array[front]; //holds former front element
-		array[front] = array[new_front]; //assigns adjacent element as the new frontmost element
+		Locomotive temp = array_queue[front]; //holds former front element
+		array_queue[front] = array_queue[new_front]; //assigns adjacent element as the new frontmost element
 		
 		for (int i = front+1; i <= rear; i++)
 		{
-			if (i == array.length-1) //if i is equal to the capacity of the queue, just set array[i] to null 
-				array[i] = null;
+			if (i == array_queue.length-1) //if i is equal to the capacity of the queue, just set array[i] to null 
+				array_queue[i] = null;
 			else
-				array[i] = array[i+1]; //set current element to succeeding element
+				array_queue[i] = array_queue[i+1]; //set current element to succeeding element
 		}
 		rear--;
 		
@@ -63,7 +63,7 @@ public class LocomotiveQueue
 	 */
 	public Locomotive rear()
 	{
-		return array[rear];
+		return array_queue[rear];
 	}
 	
 	/**
@@ -72,7 +72,7 @@ public class LocomotiveQueue
 	 */
 	public Locomotive front()
 	{
-		return array[front];
+		return array_queue[front];
 	}
 	
 	/**
@@ -81,7 +81,7 @@ public class LocomotiveQueue
 	 */
 	public int capacity()
 	{
-		return array.length;
+		return array_queue.length;
 	}
 	
 	/**
@@ -89,7 +89,7 @@ public class LocomotiveQueue
 	 */
 	public void display()
 	{
-		for (Locomotive l: array)
+		for (Locomotive l: array_queue)
 		{
 			if (l != null)
 			{
@@ -105,14 +105,16 @@ public class LocomotiveQueue
 	 */
 	public int search(Locomotive data)
 	{
-		for (int i = 0; i <= rear; i++)
+		for (int i = 0, j = 0; i <= rear; i++)
 		{
-			if (array[i].compareTo(data) == 0)
+			if (array_queue[i].compareTo(data) == 0)
 			{
 				System.out.print(data.getName() + " is element " + (i+1) + " in the queue"); //report data was found in queue
 				return 1;
 			}
 		}
+		
+		
 		
 		return 0;
 	}
@@ -123,9 +125,9 @@ public class LocomotiveQueue
 	 */
 	public LocomotiveQueue copy()
 	{
-		LocomotiveQueue copy = new LocomotiveQueue(array.length); //creates a LocomotiveQueue which same length as this LocomotiveQueue
+		LocomotiveQueue copy = new LocomotiveQueue(array_queue.length); //creates a LocomotiveQueue which same length as this LocomotiveQueue
 		
-		System.arraycopy(array, front, copy.array, front, array.length); //copy current array contents to array copy as far as where the current rear position is
+		System.arraycopy(array_queue, front, copy.array_queue, front, array_queue.length); //copy current array contents to array copy as far as where the current rear position is
 		copy.rear = this.rear; //sets copy's rear to this rear
 		
 		return copy;
@@ -137,6 +139,6 @@ public class LocomotiveQueue
 	 */
 	public boolean isFull()
 	{
-		return rear+1 == array.length;
+		return rear+1 == array_queue.length;
 	}
 }
