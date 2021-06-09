@@ -135,7 +135,7 @@ public class LocomotiveLinkedList
 		
 		for (LocomotiveNode cursor = head; cursor != null; cursor = cursor.getLink())
 		{
-			if (cursor.getData().compareTo(target) == 0)
+			if (cursor.compareTo(target) == 0)
 			{
 				System.out.println(target.getName() + " is node number " + position + " in the list");
 				return 1;
