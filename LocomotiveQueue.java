@@ -27,7 +27,7 @@ public class LocomotiveQueue
 			{
 				rear = i;
 				array_queue[rear] = element;
-				break;
+				return;
 			}
 		}
 	}

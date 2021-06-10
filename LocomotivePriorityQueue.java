@@ -69,7 +69,7 @@ public class LocomotivePriorityQueue
 			if (priority_queue[i].front() != null) //checks if there are elements in the queue to remove
 			{
 				priority_queue[i].deque(); 
-				break;
+				return;
 			}
 		}
 	}
