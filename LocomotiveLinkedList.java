@@ -37,13 +37,13 @@ public class LocomotiveLinkedList
 			if (cursor.compareTo(data)==0)
 			{
 				System.out.println(data.getName() + " is in the list already!"); //report if data being inserted already exists in the list
-				break;
+				return;
 			}
 			
 			if (cursor.getLink() == null && newNode.compareTo(cursor.getData()) == 1)
 			{
 				cursor.setLink(newNode); //sets newNode as link of cursor node
-				break; //break out of loop after insertion is done
+				return; //terminate method execution after insertion is done
 			}
 			
 			else
@@ -52,7 +52,7 @@ public class LocomotiveLinkedList
 				{
 					newNode.setLink(cursor); //sets link of newNode to cursor
 					prevCursor.setLink(newNode); //sets link of prevCursor to newNode
-					break;
+					return;
 				}
 			}
 		}
