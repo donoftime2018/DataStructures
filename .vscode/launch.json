@@ -23,6 +23,13 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "LocomotivePriorityQueueTest.java"
+        },
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "LocomotiveTrieTest.java"
         }
     ]
 }
