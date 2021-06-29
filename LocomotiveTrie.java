@@ -75,7 +75,8 @@ public class LocomotiveTrie
 		{
 			/*
 			 	code to execute
-				if we decremented any letter counts 
+				if we deleted any letter counts and letters of 
+				pre-existing words
 				before reaching a node with no letters and 
 				letter count of 0
 			*/
@@ -103,6 +104,27 @@ public class LocomotiveTrie
 			{
 				node.decreaseWordCount(); //so 'wordCount' won't have negative values
 			}
+
+			if (!node.isLeaf() && node.getWordCount() == 0 && node.getLetter() == ' ')
+			{
+				/*
+			 	code to execute
+				if we removed any letters 
+				and letter counts for a pre-existing word
+				*/
+				node.setLetter(word.charAt(position)); //reset 'letter'
+				node.increaseLetterCount(); //reset 'letterCount'
+
+				int i = 0;
+				LocomotiveTrieNode nodeRetraced = root.getChild(word.charAt(i)); //start off at node that has first letter of 'word'
+			
+				for (; i < position; ++i, nodeRetraced = nodeRetraced.getChild(word.charAt(i)))
+				{
+					nodeRetraced.setLetter(word.charAt(i)); //reset 'letter' of 'nodeRetraced'
+					nodeRetraced.increaseLetterCount(); //re-increment 'letterCount'
+				}
+			}
+
 			return; 
 		}
 		
@@ -142,8 +164,17 @@ public class LocomotiveTrie
 		
 		if (position+1 == word.length())
 		{
-			System.out.printf("%s appears in the trie %d times\n", name, node.getWordCount());
-			return; 
+			if (node.getWordCount() > 0)
+			{
+				System.out.printf("%s appears in the trie %d times\n", name, node.getWordCount());
+				return;
+			} 
+
+			else
+			{
+				System.out.println(name + " is not in the trie"); //if 'wordCount' is equal to 0 the word isn't in the trie
+				return;
+			}
 		}
 		
 		if (node.getLetter() == letterofWord) //if node's 'letter' equals 'letterofWord' keep searching
