@@ -105,7 +105,7 @@ public class LocomotiveTrie
 				node.decreaseWordCount(); //so 'wordCount' won't have negative values
 			}
 
-			if (!node.isLeaf() && node.getWordCount() == 0 && node.getLetter() == ' ')
+			if (node.moreLetters() && node.getWordCount() == 0 && node.getLetter() == ' ')
 			{
 				/*
 			 	code to execute

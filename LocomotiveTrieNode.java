@@ -349,5 +349,25 @@ public class LocomotiveTrieNode
 	{
 		return ALPHABET_SIZE;
 	}
+
+	/**
+	 * checks if there are any remaining letters in any of this node's children
+	 * @return - true if more letters were found, false if otherwise
+	 */
+	public boolean moreLetters()
+	{
+		for (int i = 0; i < ALPHABET_SIZE; i++)
+		{
+			if (children[i] != null)
+			{
+				if (children[i].getLetter() != ' ' && children[i].getLetterCount() > 0)
+				{
+					return true; //if the first non-null child node contains a letter then there are more letters 
+				}
+			}
+		}
+
+		return false; //there aren't any more letters
+	}
 	
 }
