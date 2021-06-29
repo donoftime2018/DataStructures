@@ -1,0 +1,135 @@
+Arthur appears in the trie 2 times  
+Murdoch appears in the trie 2 times 
+Hercules appears in the trie 8 times
+Billy appears in the trie 3 times   
+James appears in the trie 7 times   
+Bertram appears in the trie 1 times 
+Fergus is not in the trie
+Molly appears in the trie 1 times   
+Victor appears in the trie 6 times  
+Hiro appears in the trie 4 times    
+Edward appears in the trie 8 times  
+Bill appears in the trie 5 times    
+Test currently looks like...        
+Arry: 1
+Arthur: 2
+Bash: 1
+Bear: 1
+Ben: 1
+Bert: 1
+Bertie: 1
+Bertram: 1
+Bill: 5
+Billy: 3
+Boco: 1
+Bowler: 1
+Caroline: 1
+Charlie: 1
+Daisy: 3
+Dart: 1
+Dash: 1
+Den: 1
+Dennis: 2
+Diesel: 1
+Donald: 3
+Douglas: 2
+Duck: 1
+Duke: 3
+Edward: 8
+Emily: 3
+Ferdinand: 1
+George: 1
+Gordon: 2
+Grampus: 1
+Hector: 1
+Henry: 5
+Hercules: 8
+Hiro: 4
+James: 7
+Lady: 1
+Luke: 1
+Molly: 1
+Murdoch: 2
+Neville: 2
+Norman: 1
+Oj: 1
+Oliver: 1
+Percy: 3
+Richard: 2
+Ryan: 1
+Salty: 5
+Sidney: 2
+Spamcan: 1
+Spencer: 2
+Stepney: 3
+Terence: 2
+Thomas: 2
+Toad: 1
+Toby: 2
+Tophat: 1
+Trevor: 2
+Victor: 6
+Wilbert: 1
+
+
+Gonna remove and add some stuff...
+Arthur appears in the trie 1 times
+Murdoch is not in the trie
+Hercules appears in the trie 8 times
+James appears in the trie 4 times
+Bertram is not in the trie
+Fergus appears in the trie 2 times
+Molly is not in the trie
+Victor appears in the trie 4 times
+Edward appears in the trie 8 times
+Hiro appears in the trie 3 times
+Bill appears in the trie 2 times
+Billy is not in the trie
+Arthur: 1
+Bear: 1
+Ben: 1
+Bertie: 1
+Bill: 2
+Boco: 1
+Caroline: 1
+Daisy: 2
+Dart: 1
+Den: 1
+Dennis: 1
+Derek: 1
+Diesel: 1
+Donald: 3
+Douglas: 2
+Duck: 1
+Duke: 2
+Edward: 8
+Emily: 2
+Fergus: 2
+George: 1
+Gordon: 1
+Grampus: 1
+Hector: 1
+Henry: 5
+Hercules: 8
+Hiro: 3
+James: 4
+Lady: 1
+Luke: 1
+Oliver: 1
+Percy: 3
+Philip: 1
+Richard: 2
+Salty: 3
+Sidney: 1
+Smudger: 1
+Spencer: 1
+Stepney: 2
+Terence: 1
+Thomas: 3
+Toad: 1
+Toby: 2
+Tophat: 1
+Trevor: 1
+Victor: 4
+Wilbert: 1
+Zorran: 1
