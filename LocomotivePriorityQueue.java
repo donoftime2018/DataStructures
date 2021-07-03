@@ -79,6 +79,8 @@ public class LocomotivePriorityQueue
 	 */
 	public void display()
 	{
+		System.out.printf("Each queue can contain up to %d elements\n\n", capacity());
+		
 		int highest_priority = priority_queue.length;
 		
 		for (int i = 0; i < highest_priority; i++)
