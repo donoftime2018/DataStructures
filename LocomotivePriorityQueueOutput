@@ -1,3 +1,5 @@
+Each queue can contain up to 10 elements
+
 --------------------
 Priority 0 elements: 
 --------------------
@@ -272,6 +274,9 @@ Henry is element 4 in the queue of priority 2
 
 
 COPY CURRENTLY LOOKS LIKE...
+Each queue can contain up to 10 elements
+
+
 --------------------
 Priority 0 elements: 
 --------------------
@@ -534,6 +539,9 @@ GONNA REMOVE SOME ELEMENTS
 
 
 NOW, COPY LOOKS LIKE...
+Each queue can contain up to 10 elements
+
+
 --------------------
 Priority 0 elements: 
 --------------------
