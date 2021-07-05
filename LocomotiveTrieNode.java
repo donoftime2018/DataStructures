@@ -10,7 +10,7 @@ public class LocomotiveTrieNode
 	private int wordCount; //how many instances a particular word appears in the trie
 	
 	private LocomotiveTrieNode children[] = new LocomotiveTrieNode[ALPHABET_SIZE]; //array of children node of this particular trie node
-	
+
 	/**
 	 * Constructor initializes 'letter' field with a value
 	 * @param l - value to be assigned to 'letter' field
@@ -19,6 +19,7 @@ public class LocomotiveTrieNode
 	{
 		this.letter = l;
 	}
+	
 	
 	/**
 	 * setter method that sets 'letter' to actual parameter specified by user
@@ -152,6 +153,121 @@ public class LocomotiveTrieNode
 				return children[24];
 			
 			default: //so that the method won't have an error of no return value
+				initializeChild(25);
+				return children[25];
+		}
+	}
+
+	/**
+	 * initializes child node based on its index in 'children'
+	 * @param i - index in children we are checking is initialized before returning
+	 * @return - child node at index 'i' in 'children'
+	 */
+	public LocomotiveTrieNode initializeChildNode(int i)
+	{
+		switch(i)
+		{
+			case 0:
+				initializeChild(0);
+				return children[0];
+			
+			case 1:
+				initializeChild(1);
+				return children[1];				
+			
+			case 2:
+				initializeChild(2);
+				return children[2];
+				
+			case 3:
+				initializeChild(3);
+				return children[3];
+				
+			case 4:
+				initializeChild(4);
+				return children[4];
+				
+			case 5:
+				initializeChild(5);
+				return children[5];
+				
+			case 6:
+				initializeChild(6);
+				return children[6];
+				
+			case 7:
+				initializeChild(7);
+				return children[7];
+				
+			case 8:
+				initializeChild(8);
+				return children[8];
+					
+			case 9:
+				initializeChild(9);
+				return children[9];
+					
+			case 10:
+				initializeChild(10);
+				return children[10];
+			
+			case 11:
+				initializeChild(11);
+				return children[11];
+				
+			case 12:
+				initializeChild(12);
+				return children[12];
+				
+			case 13:
+				initializeChild(13);
+				return children[13];
+				
+			case 14:
+				initializeChild(14);
+				return children[14];
+				
+			case 15:
+				initializeChild(15);
+				return children[15];
+				
+			case 16:
+				initializeChild(16);
+				return children[16];
+					
+			case 17:
+				initializeChild(17);
+				return children[17];
+				
+			case 18:
+				initializeChild(18);
+				return children[18];
+				
+			case 19:
+				initializeChild(19);
+				return children[19];
+					
+			case 20:
+				initializeChild(20);
+				return children[20];
+				
+			case 21:
+				initializeChild(21);
+				return children[21];
+					
+			case 22:
+				initializeChild(22);
+				return children[22];
+				
+			case 23:
+				initializeChild(23);
+				return children[23];
+				
+			case 24:
+				initializeChild(24);
+				return children[24];
+			
+			default:
 				initializeChild(25);
 				return children[25];
 		}
@@ -369,5 +485,6 @@ public class LocomotiveTrieNode
 
 		return false; //there aren't any more letters
 	}
+	
 	
 }

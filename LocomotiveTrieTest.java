@@ -123,7 +123,7 @@ public class LocomotiveTrieTest {
 		test.addOccurrence(loco62);
 		test.addOccurrence(loco21);
 		test.addOccurrence(loco52);
-		test.addOccurrence(loco14);
+		//test.addOccurrence(loco14);
 		test.addOccurrence(loco57);
 		test.addOccurrence(loco32);
 		test.addOccurrence(loco52);
@@ -243,10 +243,70 @@ public class LocomotiveTrieTest {
 		System.out.println("Test currently looks like...");
 		test.display();
 
-		System.out.println("\n\nGonna remove and add some stuff...");
+		System.out.println("\n\n\n\n\n\n\n\n");
+
+		LocomotiveTrie copy = test.copy(); //creates copy of 'test'
+
+		copy.addOccurrence(new Locomotive("Billy Shoepack", null, false, "Alligator Tug", "white"));
+		copy.addOccurrence(loco60);
+		copy.addOccurrence(new Locomotive("Rosie", 37, true, "SR USA 100", "red"));
+		copy.addOccurrence(loco60);
+		copy.addOccurrence(new Locomotive("\"Fearless\" Freddie", 7, true, "W.H. Russell", "white and black"));
+		copy.addOccurrence(new Locomotive("Rosie", null, false, "SR USA 100", "lavender and white"));
+		copy.addOccurrence(loco10);
+		copy.addOccurrence(loco1);
+		copy.addOccurrence(loco1);
+		copy.addOccurrence(loco61);
+		copy.addOccurrence(loco14);
+		copy.addOccurrence(loco70);
+		copy.addOccurrence(loco32);
+		copy.addOccurrence(new Locomotive("Lillie Lightship", null, false, "Trinity House Lightship 13", "red and white"));
+		copy.addOccurrence(loco59);
+		copy.addOccurrence(loco5);
+		copy.addOccurrence(loco22);
+		copy.addOccurrence(loco8);
+		copy.addOccurrence(loco72);
+		copy.addOccurrence(loco12);
+		copy.addOccurrence(new Locomotive("Culdee", 4, true, "\"Snowdon\"", "purple"));
+		copy.addOccurrence(loco58);
+		copy.addOccurrence(loco67);
+		copy.addOccurrence(new Locomotive("Rosie", 37, true, "SR USA 100", "red"));
+		copy.addOccurrence(loco51);
+		copy.addOccurrence(loco46);
+		copy.addOccurrence(loco15);
+		copy.addOccurrence(loco53);
+		copy.addOccurrence(new Locomotive("Warrior", 5, true, "U.S.S. Powhattan", "black hull, yellow superstructure, red stack, white and blue funnel, blue cap"));
+		copy.addOccurrence(loco24);
+		copy.addOccurrence(new Locomotive("Culdee", 4, true, "\"Snowdon\"", "purple"));
+		copy.addOccurrence(loco11);
+		copy.addOccurrence(loco50);
+		copy.addOccurrence(loco8);
+		copy.addOccurrence(loco54);
+		copy.removeOccurrence(loco9);
+		copy.addOccurrence(new Locomotive("Big Mac", 2, true, "U.S.S. Powhattan", "black hull, yellow superstructure, red stack, white and blue funnel, blue cap"));
+		copy.addOccurrence(new Locomotive("Philip", 68, true, "PRR A6 Boxcab", "green and yellow"));
+
+		copy.search(loco8); //searches for # of times 'name' of 'loco8' occurs in trie
+		copy.search(loco11);
+		copy.search(loco62);
+		copy.search(loco2);
+		copy.search(loco25);
+		copy.search(loco18);
+		copy.search(loco3);
+		copy.search(loco51);
+		copy.search(loco30);
+		copy.search(loco44);
+		copy.search(loco56);
+		copy.search(loco17);
+
+		System.out.println("Copy currently looks like...");
+		copy.display();
+
+
+		System.out.println("\n\n\n\n\n\n\n\nGonna remove and add some stuff to test...");
 		test.removeOccurrence(loco17); //removes 1 occurrence of 'loco17' in trie
 		test.removeOccurrence(loco32);
-		test.removeOccurrence(loco14);
+		//test.removeOccurrence(loco14);
 		test.removeOccurrence(loco57);
 		test.removeOccurrence(loco2);
 		test.removeOccurrence(loco8);

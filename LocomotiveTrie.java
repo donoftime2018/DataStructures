@@ -2,8 +2,11 @@ package Trie;
 
 public class LocomotiveTrie 
 {
-	private LocomotiveTrieNode root;
+	private LocomotiveTrieNode root; //root of trie
 	
+	/**
+	 * Constructor initializes 'root' to hold a whitespace character
+	 */
 	public LocomotiveTrie()
 	{
 		root = new LocomotiveTrieNode(' '); //initialize root to hold whitespace
@@ -20,7 +23,6 @@ public class LocomotiveTrie
 		name = name.replaceAll("[^a-zA-Z0-9]", ""); //remove all non alpha numeric characters from 'name'
 		name = name.toLowerCase(); //convert 'name' to all lower case
 		
-		//LocomotiveTrieNode node = root.getChildNode(name.charAt(0));
 		addOccurrence(0, name, name.charAt(0), root.initializeChildNode(name.charAt(0)));
 	}
 	
@@ -249,6 +251,75 @@ public class LocomotiveTrie
 		{
 			display(index, letters, node.getChild(i)); //recurse down all child nodes of 'node'
 		}
+	}
+
+	/**
+	 * creates a deep copy of the current 'LocomotiveTrie' object
+	 * @return - reference to deep copy of this instance's data
+	 */
+	public LocomotiveTrie copy()
+	{
+		LocomotiveTrie copy = new LocomotiveTrie(); //creates new LocomotiveTrie object
+
+		for (int i = 0; i < LocomotiveTrieNode.getAlphabetSize(); i++)
+		{
+			if (root.getChild(i) != null)
+				copy(root.getChild(i), copy.root.initializeChildNode(i)); //copy node only if node for current object exists
+			else
+				continue; //continue to next iteration
+		}
+
+		return copy;
+		
+	}
+
+	/**
+	 * method that copies contents of current trie object to another object
+	 * @param src - node we are getting data FROM
+	 * @param dest - node we are copying data TO
+	 */
+	private void copy(LocomotiveTrieNode src, LocomotiveTrieNode dest)
+	{
+		if (src.getLetter() != ' ' && src.getLetterCount() > 0)
+		{
+			dest.setLetter(src.getLetter()); //set letter of 'dest' to letter in 'src', provided 'letter' in 'src' exists
+			
+			for (int i = 0; i < src.getLetterCount(); i++)
+				dest.increaseLetterCount(); //increase 'letterCount' of 'dest' until it is equal to 'letterCount' of 'src'
+		}
+
+		if (src.getWordCount() > 0)
+		{
+			for (int i = 0; i < src.getWordCount(); i++)
+				dest.increaseWordCount(); //increase 'wordCount' of 'dest' until it is equal to 'wordCount' of 'src'
+			
+			if (!src.isLeaf())
+			{
+				for (int i = 0; i < LocomotiveTrieNode.getAlphabetSize(); i++)
+				{
+					if (src.getChild(i) != null)
+						copy(src.getChild(i), dest.initializeChildNode(i)); //recurse down child nodes of 'src' and 'dest' if 'src' has more child nodes
+			
+					else
+						continue;
+				}
+			}
+				
+
+			return;
+		}
+		
+		for (int i = 0; i < LocomotiveTrieNode.getAlphabetSize(); i++)
+		{
+			if (src.getChild(i) != null)
+				copy(src.getChild(i), dest.initializeChildNode(i)); //recurse down child nodes of 'src' and 'dest'
+			
+			else
+				continue;
+		}
+		
+		
+		
 	}
 
 }
