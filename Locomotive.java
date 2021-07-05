@@ -38,7 +38,7 @@ public class Locomotive implements Comparable
 	
 	@Override
 	/**
-	 * compares this locomotive's number to another locomotive object's number and returns -1, 1, or 0 accordingly
+	 * compares the 'name' field of this Locomotive object to 'name' field of 'loco2' lexicographically and returns 1, -1, or 0 accordingly
 	 */
 	public int compareTo(Object o) {
 		// TODO Auto-generated method stub
@@ -49,7 +49,7 @@ public class Locomotive implements Comparable
 
 		int minLength = Math.min(first.length, second.length);
 
-		for(int i = 0; i < minLength; i++)
+		for (int i = 0; i < minLength; i++)
 		{
 			if (first[i] < second[i])
 			{
