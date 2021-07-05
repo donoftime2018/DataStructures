@@ -1,16 +1,16 @@
-Arthur appears in the trie 2 times  
-Murdoch appears in the trie 2 times 
+Arthur appears in the trie 2 times
+Murdoch appears in the trie 2 times
 Hercules appears in the trie 8 times
-Billy appears in the trie 3 times   
-James appears in the trie 7 times   
-Bertram appears in the trie 1 times 
+Billy appears in the trie 3 times
+James appears in the trie 7 times
+Bertram appears in the trie 1 times
 Fergus is not in the trie
-Molly appears in the trie 1 times   
-Victor appears in the trie 6 times  
-Hiro appears in the trie 4 times    
-Edward appears in the trie 8 times  
-Bill appears in the trie 5 times    
-Test currently looks like...        
+Molly appears in the trie 1 times
+Victor appears in the trie 6 times
+Hiro appears in the trie 4 times
+Edward appears in the trie 8 times
+Bill appears in the trie 5 times
+Test currently looks like...
 Arry: 1
 Arthur: 2
 Bash: 1
@@ -29,7 +29,7 @@ Daisy: 3
 Dart: 1
 Dash: 1
 Den: 1
-Dennis: 2
+Dennis: 1
 Diesel: 1
 Donald: 3
 Douglas: 2
@@ -72,7 +72,113 @@ Victor: 6
 Wilbert: 1
 
 
-Gonna remove and add some stuff...
+
+
+
+
+
+
+
+Arthur appears in the trie 4 times
+Murdoch appears in the trie 3 times
+Hercules appears in the trie 8 times
+Billy appears in the trie 3 times
+James appears in the trie 7 times
+Bertram appears in the trie 1 times
+Fergus is not in the trie
+Molly appears in the trie 2 times
+Victor appears in the trie 6 times
+Hiro appears in the trie 4 times
+Edward appears in the trie 8 times
+Bill appears in the trie 5 times
+Copy currently looks like...
+Arthur: 4
+Bash: 1
+Bear: 2
+Ben: 1
+Bert: 1
+Bertie: 1
+Bertram: 1
+Bigmac: 1
+Bill: 5
+Billy: 3
+Billyshoepack: 1
+Boco: 1
+Bowler: 1
+Caroline: 1
+Charlie: 1
+Culdee: 2
+Daisy: 4
+Dart: 1
+Dash: 1
+Den: 1
+Dennis: 2
+Diesel: 1
+Donald: 3
+Douglas: 2
+Duck: 1
+Duke: 3
+Edward: 8
+Emily: 3
+Fearlessfreddie: 1
+Ferdinand: 1
+Flyingscotsman: 2
+Frankie: 1
+George: 1
+Gordon: 3
+Grampus: 1
+Hank: 1
+Hector: 1
+Henry: 5
+Hercules: 8
+Hiro: 4
+Hugo: 1
+Hurricane: 1
+James: 7
+Lady: 1
+Lillielightship: 1
+Luke: 2
+Mavis: 1
+Merlin: 1
+Mightymac: 1
+Molly: 2
+Murdoch: 3
+Neville: 2
+Norman: 1
+Oj: 1
+Oliver: 1
+Percy: 5
+Philip: 1
+Rebecca: 1
+Richard: 2
+Rosie: 3
+Ryan: 1
+Salty: 5
+Sidney: 3
+Skarloey: 1
+Spamcan: 1
+Spencer: 2
+Stepney: 3
+Terence: 2
+Thomas: 2
+Toad: 1
+Toby: 2
+Tophat: 2
+Trevor: 2
+Victor: 6
+Warrior: 1
+Whiff: 1
+Wilbert: 1
+Yongbao: 1
+
+
+
+
+
+
+
+
+Gonna remove and add some stuff to test...
 Arthur appears in the trie 1 times
 Murdoch is not in the trie
 Hercules appears in the trie 8 times
