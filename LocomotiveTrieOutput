@@ -108,24 +108,23 @@ Bowler: 1
 Caroline: 1
 Charlie: 1
 Culdee: 2
-Daisy: 4
+Daisy: 2
 Dart: 1
 Dash: 1
 Den: 1
 Dennis: 2
 Diesel: 1
-Donald: 3
+Donald: 2
 Douglas: 2
 Duck: 1
 Duke: 3
 Edward: 8
-Emily: 3
 Fearlessfreddie: 1
 Ferdinand: 1
 Flyingscotsman: 2
 Frankie: 1
 George: 1
-Gordon: 3
+Gordon: 1
 Grampus: 1
 Hank: 1
 Hector: 1
@@ -180,7 +179,7 @@ Yongbao: 1
 
 Gonna remove and add some stuff to test...
 Arthur appears in the trie 1 times
-Murdoch is not in the trie
+Murdoch appears in the trie 1 times
 Hercules appears in the trie 8 times
 James appears in the trie 4 times
 Bertram is not in the trie
@@ -221,6 +220,7 @@ Hiro: 3
 James: 4
 Lady: 1
 Luke: 1
+Murdoch: 1
 Oliver: 1
 Percy: 3
 Philip: 1
