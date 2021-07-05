@@ -88,15 +88,15 @@ public class LocomotiveTrieTest {
 		loco72 = new Locomotive("Top Hat", 4, true, "New York Central Tugboat 13", "black hull, yellow superstructure, red stack, white and blue funnel, brown wheelhouse");
 		loco73 = new Locomotive("Bradford", null, false, "LMS 20 Ton Brakevan", "green");
 		
-		// test.addOccurrence(loco33);
-		// test.addOccurrence(loco14);
-		// test.removeOccurrence(loco33);
-		// test.removeOccurrence(loco33);
+		test.addOccurrence(loco33);
+		test.addOccurrence(loco14);
+		test.removeOccurrence(loco33);
+		test.removeOccurrence(loco33);
 
-		// test.addOccurrence(loco21);
-		// test.addOccurrence(loco26);
-		// test.removeOccurrence(loco21);
-		// test.removeOccurrence(loco21);
+		test.addOccurrence(loco21);
+		test.addOccurrence(loco26);
+		test.removeOccurrence(loco21);
+		test.removeOccurrence(loco21);
 
 		test.addOccurrence(loco56); //add 'name' field of 'loco56' to 'test'
 		test.addOccurrence(loco62);
@@ -257,19 +257,24 @@ public class LocomotiveTrieTest {
 		copy.addOccurrence(loco1);
 		copy.addOccurrence(loco1);
 		copy.addOccurrence(loco61);
+		copy.removeOccurrence(loco32);
 		copy.addOccurrence(loco14);
+		copy.removeOccurrence(loco21);
 		copy.addOccurrence(loco70);
-		copy.addOccurrence(loco32);
+		//copy.addOccurrence(loco32);
 		copy.addOccurrence(new Locomotive("Lillie Lightship", null, false, "Trinity House Lightship 13", "red and white"));
 		copy.addOccurrence(loco59);
 		copy.addOccurrence(loco5);
-		copy.addOccurrence(loco22);
+		copy.removeOccurrence(loco22);
 		copy.addOccurrence(loco8);
 		copy.addOccurrence(loco72);
 		copy.addOccurrence(loco12);
+		copy.removeOccurrence(loco29);
 		copy.addOccurrence(new Locomotive("Culdee", 4, true, "\"Snowdon\"", "purple"));
 		copy.addOccurrence(loco58);
 		copy.addOccurrence(loco67);
+		copy.removeOccurrence(loco29);
+		copy.removeOccurrence(loco29);
 		copy.addOccurrence(new Locomotive("Rosie", 37, true, "SR USA 100", "red"));
 		copy.addOccurrence(loco51);
 		copy.addOccurrence(loco46);
@@ -340,6 +345,7 @@ public class LocomotiveTrieTest {
 		test.removeOccurrence(loco11);
 		test.removeOccurrence(loco35);
 		test.removeOccurrence(loco20);
+		test.removeOccurrence(loco28);
 		test.removeOccurrence(new Locomotive("Spamcan", 199, true, "BR Class 46", "light blue"));
 		test.removeOccurrence(loco54);
 		test.removeOccurrence(loco19);

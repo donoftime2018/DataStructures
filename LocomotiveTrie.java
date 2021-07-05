@@ -70,10 +70,7 @@ public class LocomotiveTrie
 	 */
 	private void removeOccurrence(int position, String word, char letterofWord, LocomotiveTrieNode node)
 	{
-		if (node == null)
-			return; //if node is null do nothing
-		
-		if (node.getLetterCount() == 0 && node.getLetter() == ' ')
+		if (node == null || node.getLetterCount() == 0 && node.getLetter() == ' ')
 		{
 			/*
 			 	code to execute
