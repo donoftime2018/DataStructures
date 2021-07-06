@@ -40,7 +40,7 @@ public class LocomotivePriorityQueue
 			return;
 		}
 		
-		for (int i = 0; i < priority_queue.length; i++)
+		for (int i = 0; i <= highest_priority; i++)
 		{
 			
 			if (i == priority)

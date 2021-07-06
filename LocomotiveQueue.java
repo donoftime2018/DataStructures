@@ -7,7 +7,8 @@ public class LocomotiveQueue
 	private int rear; //the last element in the array
 	
 	/**
-	 * Constructor instantiates the 'array', 'front' and 'rear' fields
+	 *  Constructor instantiates the 'array_queue', 'front' and 'rear' fields
+	 * @param capacity - the capacity of 'array_queue' (i.e. how many elements it can hold)
 	 */
 	public LocomotiveQueue(int capacity)
 	{
