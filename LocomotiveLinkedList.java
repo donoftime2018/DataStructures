@@ -13,7 +13,7 @@ public class LocomotiveLinkedList
 	}
 	
 	/**
-	 * inserts a new node in the list at the end of the list; calls insertHead if head is null and calls insertNewHead if existing head is greater than new head
+	 * inserts a new node in the list at the appropriate position; calls insertHead if head is null and calls insertNewHead if existing head is greater than new head
 	 * @param node - node being inserted
 	 */
 	public void insert(Locomotive data)
