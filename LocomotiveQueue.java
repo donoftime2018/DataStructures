@@ -106,7 +106,7 @@ public class LocomotiveQueue
 	 */
 	public int search(Locomotive data)
 	{
-		for (int i = 0, j = 0; i <= rear; i++)
+		for (int i = 0; i <= rear; i++)
 		{
 			if (array_queue[i].compareTo(data) == 0)
 			{
