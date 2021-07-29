@@ -46,7 +46,7 @@ public class LocomotiveQueue
 		
 		for (int i = front+1; i <= rear; i++)
 		{
-			if (i == array_queue.length-1) //if i is equal to the capacity of the queue, just set array[i] to null 
+			if (i == array_queue.length-1) //if i is equal to the last element of queue (length of 'array_queue' subtracted by 1), just set array[i] to null 
 				array_queue[i] = null;
 			else
 				array_queue[i] = array_queue[i+1]; //set current element to succeeding element
