@@ -40,7 +40,7 @@ public class LocomotiveLinkedList
 				return;
 			}
 			
-			if (cursor.getLink() == null && newNode.compareTo(cursor.getData()) == 1)
+			if (cursor.getLink() == null && newNode.compareTo(cursor.getData()) == 1) //for inserting the tail node
 			{
 				cursor.setLink(newNode); //sets newNode as link of cursor node
 				return; //terminate method execution after insertion is done
