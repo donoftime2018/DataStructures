@@ -3,7 +3,7 @@ package Trie;
 public class LocomotiveTrieNode 
 {
 	
-	private static int ALPHABET_SIZE = 26;
+	private static final int ALPHABET_SIZE = 26;
 	
 	private char letter; //letter that this paritcular trie node is holding
 	private int letterCount; //how many instances of this letter is in the trie
