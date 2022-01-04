@@ -195,7 +195,7 @@ public class LocomotiveTrie
 		
 		for (int i = 0; i < LocomotiveTrieNode.getAlphabetSize(); i++)
 		{
-			display(0, new char[16], children[i]); //call 'display' method for each child node
+			display(0, new char[17], children[i]); //call 'display' method for each child node
 		}
 	}
 	
