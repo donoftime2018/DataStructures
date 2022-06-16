@@ -1,3 +1,4 @@
+package Queue;
 import java.util.*;
 
 public class LocomotivePriortyQueueTest {
@@ -86,7 +87,7 @@ public class LocomotivePriortyQueueTest {
 //		test.add(loco18, 4);
 //		test.add(loco17, 4);
 //		test.add(loco15, 4);
-//		test.add(loco13, 4);
+//		test.add(loco13, 4);5
 //		test.add(loco24, 4);
 //		test.add(loco23, 4);
 //		test.add(loco20, 4);
@@ -96,8 +97,10 @@ public class LocomotivePriortyQueueTest {
 		
 		test.add(loco16, rand.nextInt(MAX_PRIORITY));
 		test.add(loco11, rand.nextInt(MAX_PRIORITY));
+		test.add(new Locomotive("Henry", 3, true, "GNR Atlantic C1", "blue"), rand.nextInt(MAX_PRIORITY));
 		test.add(loco59, rand.nextInt(MAX_PRIORITY));
 		test.add(loco41, rand.nextInt(MAX_PRIORITY));
+		test.add(new Locomotive("James", 5, true, "LYR Class 28", "busy as a bee"), rand.nextInt(MAX_PRIORITY));
 		test.add(loco14, rand.nextInt(MAX_PRIORITY));
 		test.add(loco24, rand.nextInt(MAX_PRIORITY));
 		test.add(loco2, rand.nextInt(MAX_PRIORITY));
@@ -106,10 +109,12 @@ public class LocomotivePriortyQueueTest {
 		test.add(loco9, rand.nextInt(MAX_PRIORITY));
 		test.add(loco44, rand.nextInt(MAX_PRIORITY));
 		test.add(loco3, rand.nextInt(MAX_PRIORITY));
+		test.add(new Locomotive("Rosie", null, false, "SR USA S100", "pink"), rand.nextInt(MAX_PRIORITY));
 		test.add(loco34, rand.nextInt(MAX_PRIORITY));
 		test.add(loco25, rand.nextInt(MAX_PRIORITY));
 		test.add(loco28, rand.nextInt(MAX_PRIORITY));
 		test.add(loco48, rand.nextInt(MAX_PRIORITY));
+		test.add(new Locomotive("Henry", 3, true, "GNR Atlantic C1", "green"), rand.nextInt(MAX_PRIORITY));
 		test.add(loco7, rand.nextInt(MAX_PRIORITY));
 		test.add(loco21, rand.nextInt(MAX_PRIORITY));
 		test.add(loco40, rand.nextInt(MAX_PRIORITY));
@@ -121,6 +126,7 @@ public class LocomotivePriortyQueueTest {
 		test.add(loco36, rand.nextInt(MAX_PRIORITY));
 		test.add(loco17, rand.nextInt(MAX_PRIORITY));
 		test.add(loco38, rand.nextInt(MAX_PRIORITY));
+		test.add(new Locomotive("Victor", null, false, "\"Minaz\" No. 1173", "red and yellow"), rand.nextInt(MAX_PRIORITY));
 		test.add(loco32, rand.nextInt(MAX_PRIORITY));
 		test.add(loco14, rand.nextInt(MAX_PRIORITY));
 		test.add(loco52, rand.nextInt(MAX_PRIORITY));

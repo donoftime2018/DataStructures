@@ -1,4 +1,4 @@
-
+package Queue;
 public class LocomotiveQueue 
 {
 	private Locomotive[] array_queue; //an array of Locomotives that represents a queue
@@ -19,24 +19,18 @@ public class LocomotiveQueue
 	 * adds a new element to the rear of the queue
 	 * @param element - element to be added to queue
 	 */
-	public int enque(Locomotive element)
+	public void enque(Locomotive element)
 	{
 		for (int i = 0; i < array_queue.length; i++)
 		{
-			if (array_queue[i].compareTo(element) == 0)
-			{
-				return 2; //check if data already exists in the queue
-			}
 
 			if (array_queue[i] == null)
 			{
 				rear = i;
 				array_queue[rear] = element;
-				return 1;
+				return;
 			}
 		}
-
-		return 0;
 
 	}
 
@@ -148,5 +142,26 @@ public class LocomotiveQueue
 	public boolean isFull()
 	{
 		return rear+1 == array_queue.length;
+	}
+	
+	/**
+	 * checks if a character already exists in the queue
+	 * @param element - we are searching that this element exists in this queue
+	 * @return - true if element exists, false if does not
+	 */
+	public boolean alreadyExists(Locomotive element)
+	{
+		for (Locomotive l: array_queue)
+		{
+			if (l != null)
+			{
+				if (l.compareTo(element) == 0)
+				{
+					return true;
+				}
+			}
+		}
+		
+		return false;
 	}
 }

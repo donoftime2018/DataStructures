@@ -1,4 +1,4 @@
-
+package Queue;
 public class LocomotivePriorityQueue 
 {
 	private LocomotiveQueue[] priority_queue; //an array of queues to represent the priority queue
@@ -50,16 +50,13 @@ public class LocomotivePriorityQueue
 					continue; //go to next iteration 
 				}
 				
-				
-				if (priority_queue[i].enque(element) == 2) //if element is already in queue, then increase priority and check next queue
+				if (priority_queue[i].alreadyExists(element)) //check if engine is already in priority
 				{
 					priority++;
 					continue;
 				}
-
-				else 
-					if (priority_queue[i].enque(element) == 1)
-						return; //terminate once element inserted correctly
+				
+				priority_queue[i].enque(element);
 			}
 		}
 	}

@@ -1,4 +1,5 @@
 /** represents a locomotive in the Thomas & Friends universe */
+package Queue;
 public class Locomotive implements Comparable
 {
 	private String name; //the engine's name
