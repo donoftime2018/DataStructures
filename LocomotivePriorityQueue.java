@@ -1,4 +1,3 @@
-package Queue;
 
 public class LocomotivePriorityQueue 
 {
@@ -51,8 +50,16 @@ public class LocomotivePriorityQueue
 					continue; //go to next iteration 
 				}
 				
-				priority_queue[i].enque(element);
-				return; 
+				
+				if (priority_queue[i].enque(element) == 2) //if element is already in queue, then increase priority and check next queue
+				{
+					priority++;
+					continue;
+				}
+
+				else 
+					if (priority_queue[i].enque(element) == 1)
+						return; //terminate once element inserted correctly
 			}
 		}
 	}

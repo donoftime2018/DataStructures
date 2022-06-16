@@ -1,4 +1,3 @@
-package Queue;
 
 public class LocomotiveQueue 
 {
@@ -20,19 +19,27 @@ public class LocomotiveQueue
 	 * adds a new element to the rear of the queue
 	 * @param element - element to be added to queue
 	 */
-	public void enque(Locomotive element)
+	public int enque(Locomotive element)
 	{
 		for (int i = 0; i < array_queue.length; i++)
 		{
+			if (array_queue[i].compareTo(element) == 0)
+			{
+				return 2; //check if data already exists in the queue
+			}
+
 			if (array_queue[i] == null)
 			{
 				rear = i;
 				array_queue[rear] = element;
-				return;
+				return 1;
 			}
 		}
+
+		return 0;
+
 	}
-	
+
 	/**
 	 * removes the front-most element of the queue
 	 * @return the first element in the queue 

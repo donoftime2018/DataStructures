@@ -1,5 +1,3 @@
-package Queue;
-
 /** represents a locomotive in the Thomas & Friends universe */
 public class Locomotive implements Comparable
 {
