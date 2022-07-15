@@ -1,3 +1,7 @@
+#ifndef TRIENODE_H
+#define TRIENODE_H
+
+
 #include <stdio.h>
 
 #define MAX_WORD_LENGTH 18
@@ -20,3 +24,5 @@ void preInitialization(struct trieNode* node); //initializes all children of 'no
 struct trieNode* initializedNode(struct trieNode* node, char letter); //returns 1 (initialized) child node of 'node'
 void initializeChild(struct trieNode* node, int position); //initializes 'children[position]' of 'node' if uninitialized
 int isLeaf(struct trieNode* node); //determines if 'node' is a leaf or not
+
+#endif
