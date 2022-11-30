@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-#define MAX_WORD_LENGTH 23
+#define MAX_WORD_LENGTH 22
 #define ALPHABET_SIZE 26
 
 struct trieNode
